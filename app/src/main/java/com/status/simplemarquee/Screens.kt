@@ -78,6 +78,7 @@ import androidx.compose.ui.graphics.SolidColor
 import androidx.compose.ui.graphics.graphicsLayer
 import androidx.compose.ui.input.pointer.pointerInput
 import androidx.compose.ui.platform.LocalView
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.semantics.contentDescription
 import androidx.compose.ui.semantics.Role
@@ -145,7 +146,7 @@ fun HomeScreen(
             TopAppBar(
                 title = {
                     Column {
-                        Text("簡單跑馬燈", fontWeight = FontWeight.Bold)
+                        Text(stringResource(R.string.app_name), fontWeight = FontWeight.Bold)
                         Text(
                             "選一則訊息，立即全螢幕播放",
                             style = MaterialTheme.typography.labelMedium,

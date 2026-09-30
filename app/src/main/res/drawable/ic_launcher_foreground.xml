@@ -23,25 +23,25 @@
     <path
         android:fillColor="#FFE14D"
         android:pathData="M46,33m-1.7,0a1.7,1.7 0,1 0,3.4 0a1.7,1.7 0,1 0,-3.4 0" />
-    <path
-        android:fillColor="#00000000"
-        android:pathData="M30,42h0.1M30,45h0.1M30,48h0.1M30,51h0.1M30,54h0.1M30,57h0.1M30,60h0.1M32.7,60h0.1M35.4,60h0.1M38.1,60h0.1M40.8,60h0.1M47,42h0.1M47,45h0.1M47,48h0.1M47,51h0.1M47,54h0.1M47,57h0.1M47,60h0.1M49.7,42h0.1M49.7,51h0.1M49.7,60h0.1M52.4,42h0.1M52.4,51h0.1M52.4,60h0.1M55.1,42h0.1M55.1,51h0.1M55.1,60h0.1M57.8,42h0.1M57.8,51h0.1M57.8,60h0.1M64,42h0.1M64,45h0.1M64,48h0.1M64,51h0.1M64,54h0.1M64,57h0.1M64,60h0.1M66.7,42h0.1M66.7,60h0.1M69.4,42h0.1M69.4,60h0.1M72.1,42h0.1M72.1,60h0.1M74.8,45h0.1M74.8,48h0.1M74.8,51h0.1M74.8,54h0.1M74.8,57h0.1"
-        android:strokeColor="#167F3B"
-        android:strokeLineCap="round"
-        android:strokeWidth="4.2" />
-    <path
-        android:fillColor="#00000000"
-        android:pathData="M30,42h0.1M30,45h0.1M30,48h0.1M30,51h0.1M30,54h0.1M30,57h0.1M30,60h0.1M32.7,60h0.1M35.4,60h0.1M38.1,60h0.1M40.8,60h0.1M47,42h0.1M47,45h0.1M47,48h0.1M47,51h0.1M47,54h0.1M47,57h0.1M47,60h0.1M49.7,42h0.1M49.7,51h0.1M49.7,60h0.1M52.4,42h0.1M52.4,51h0.1M52.4,60h0.1M55.1,42h0.1M55.1,51h0.1M55.1,60h0.1M57.8,42h0.1M57.8,51h0.1M57.8,60h0.1M64,42h0.1M64,45h0.1M64,48h0.1M64,51h0.1M64,54h0.1M64,57h0.1M64,60h0.1M66.7,42h0.1M66.7,60h0.1M69.4,42h0.1M69.4,60h0.1M72.1,42h0.1M72.1,60h0.1M74.8,45h0.1M74.8,48h0.1M74.8,51h0.1M74.8,54h0.1M74.8,57h0.1"
-        android:strokeColor="#54FF7B"
-        android:strokeLineCap="round"
-        android:strokeWidth="2.7" />
-    <path
-        android:fillColor="#00000000"
-        android:pathData="M39,69C46,74 62,74 69,69"
-        android:strokeColor="#54E6FF"
-        android:strokeLineCap="round"
-        android:strokeWidth="3.4" />
-    <path
-        android:fillColor="#FFF4D6"
-        android:pathData="M35,71m-1.8,0a1.8,1.8 0,1 0,3.6 0a1.8,1.8 0,1 0,-3.6 0M73,71m-1.8,0a1.8,1.8 0,1 0,3.6 0a1.8,1.8 0,1 0,-3.6 0" />
+    <!-- Center the LED lettering in the panel with clear space around its edges. -->
+    <group
+        android:pivotX="52.5"
+        android:pivotY="51"
+        android:scaleX="0.85"
+        android:scaleY="0.85"
+        android:translateX="1.5"
+        android:translateY="3">
+        <path
+            android:fillColor="#00000000"
+            android:pathData="M30,42h0.1M30,45h0.1M30,48h0.1M30,51h0.1M30,54h0.1M30,57h0.1M30,60h0.1M32.7,60h0.1M35.4,60h0.1M38.1,60h0.1M40.8,60h0.1M47,42h0.1M47,45h0.1M47,48h0.1M47,51h0.1M47,54h0.1M47,57h0.1M47,60h0.1M49.7,42h0.1M49.7,51h0.1M49.7,60h0.1M52.4,42h0.1M52.4,51h0.1M52.4,60h0.1M55.1,42h0.1M55.1,51h0.1M55.1,60h0.1M57.8,42h0.1M57.8,51h0.1M57.8,60h0.1M64,42h0.1M64,45h0.1M64,48h0.1M64,51h0.1M64,54h0.1M64,57h0.1M64,60h0.1M66.7,42h0.1M66.7,60h0.1M69.4,42h0.1M69.4,60h0.1M72.1,42h0.1M72.1,60h0.1M74.8,45h0.1M74.8,48h0.1M74.8,51h0.1M74.8,54h0.1M74.8,57h0.1"
+            android:strokeColor="#167F3B"
+            android:strokeLineCap="round"
+            android:strokeWidth="4.2" />
+        <path
+            android:fillColor="#00000000"
+            android:pathData="M30,42h0.1M30,45h0.1M30,48h0.1M30,51h0.1M30,54h0.1M30,57h0.1M30,60h0.1M32.7,60h0.1M35.4,60h0.1M38.1,60h0.1M40.8,60h0.1M47,42h0.1M47,45h0.1M47,48h0.1M47,51h0.1M47,54h0.1M47,57h0.1M47,60h0.1M49.7,42h0.1M49.7,51h0.1M49.7,60h0.1M52.4,42h0.1M52.4,51h0.1M52.4,60h0.1M55.1,42h0.1M55.1,51h0.1M55.1,60h0.1M57.8,42h0.1M57.8,51h0.1M57.8,60h0.1M64,42h0.1M64,45h0.1M64,48h0.1M64,51h0.1M64,54h0.1M64,57h0.1M64,60h0.1M66.7,42h0.1M66.7,60h0.1M69.4,42h0.1M69.4,60h0.1M72.1,42h0.1M72.1,60h0.1M74.8,45h0.1M74.8,48h0.1M74.8,51h0.1M74.8,54h0.1M74.8,57h0.1"
+            android:strokeColor="#54FF7B"
+            android:strokeLineCap="round"
+            android:strokeWidth="2.7" />
+    </group>
 </vector>
